@@ -1,8 +1,9 @@
 import React from 'react';
-import Layout from './layout/Layout';
+
+import Layout from "./layout/Layout";
 
 const App = () => (
-   <Layout/>
+    <Layout/>
 )
 
 export default App;

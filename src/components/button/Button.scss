@@ -1,0 +1,12 @@
+@import "src/styles/styles";
+
+.custom-button{
+  button{
+    height: 35px;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: $blue;
+    color: $white;
+    border: none;
+  }
+}

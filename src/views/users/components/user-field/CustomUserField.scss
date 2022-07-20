@@ -1,0 +1,12 @@
+@import "src/styles/styles";
+.user-field{
+  .custom-button{
+    text-align: center;
+  }
+  .delete-btn{
+    button{
+      background-color:$red;
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.table-row{
+  cursor: pointer;
+  td{
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    height: 30px;
+    vertical-align: middle;
+  }
+  td.email{
+    float: right;
+  }
+}
