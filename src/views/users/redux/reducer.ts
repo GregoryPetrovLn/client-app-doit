@@ -37,6 +37,8 @@ export const reducer = (state = initialState, action: UserAction): UserState => 
             return {...state,selectedUser:null, loadingGetUser:true}
         case PutUserByIdActionTypes.PUT_USER_BY_ID_SUCCESS:
             return {...state,selectedUser:null, loadingGetUser:false}
+        case PutUserByIdActionTypes.PUT_USER_BY_ID_ERROR:
+            return {...state,selectedUser:null, loadingGetUser:false}
         default:
             return state
     }
